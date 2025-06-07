@@ -1,5 +1,5 @@
-html{
-    color:navy;
+html {
+    color: navy;
     font-family: "zain";
 }
 
@@ -10,9 +10,124 @@ body {
 p {
     font-size: 1.27rem;
 }
+
 ol {
     font-size: 1.27rem;
 }
+h3 {
+    font-size: 2rem;
+    padding-top: 6rem;
+}
+
 h5 {
     font-size: 1.4rem;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+.round2 {
+    border: 2px solid rgb(176, 209, 231);
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, .70);
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#begining {
+    background-image: url('https://d3jkudlc7u70kh.cloudfront.net/summer-facts.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 27rem;
+    padding-left: 27rem;
+}
+#intro {
+    padding-right: 60rem;
+}
+
+#content {
+    padding-top:1.5rem;
+}
+.description {
+    border: 1rem solid red;
+    width:30%;
+    float: left;
+}
+.camp_photo {
+    border: 1rem solid rgb(38, 0, 255);
+    width:30%;
+    float: left;
+}
+#Elphinstone_description {
+   width:40%; 
+   border: 1rem solid red;
+   float: left;
+}
+#Elphinstone_photo {
+   width:80%; 
+   border: 1rem solid rgb(25, 0, 255);
+   float: left;
+}
+.navbar {
+    background-color: rgb(157, 150, 196);
+    display:flex;
+    justify-content: center;
+    border-radius: 0.75em; 
+}
+.nav-links {
+    list-style: none;
+    display:flex;
+    gap: 10em;
+    font-size: 1.25rem;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    transition: 0.3s;
+    padding: 0.5em 1em;
+    border-radius: 0.5em; 
+}
+.nav-links a:hover {
+    background-color: rgb(86, 76, 142);
+}
+.title {
+    text-align: center;
+    padding: 1em;
+    color:  rgb(36, 36, 144); 
+}
+.current {
+    text-decoration: underline dotted rgb(86, 76, 142) 0.2em;
+}
+.accordion-header {
+    width: 100%;
+    background-color: rgb(157, 150, 196);
+    border: none;
+    padding: 1em 1em 1em 3em;
+    text-align: left;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.accordion-content {
+    display: none;
+}
+.accordion-header:hover {
+    background-color: rgb(102, 91, 166);
 }
