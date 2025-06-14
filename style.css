@@ -14,6 +14,7 @@ p {
 ol {
     font-size: 1.27rem;
 }
+
 h3 {
     font-size: 2rem;
     padding-top: 6rem;
@@ -22,9 +23,11 @@ h3 {
 h5 {
     font-size: 1.4rem;
 }
+
 h1 {
     font-size: 3.5rem;
 }
+
 h2 {
     font-size: 2rem;
 }
@@ -35,7 +38,7 @@ h2 {
     padding: 5px;
     text-align: center;
     background-color: rgb(255, 255, 255, .70);
-    
+
 }
 
 h1 {
@@ -49,71 +52,75 @@ h2 {
 #begining {
     background-image: url('https://d3jkudlc7u70kh.cloudfront.net/summer-facts.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: 75% 50%;
 
     padding-top: 10rem;
     padding-bottom: 10rem;
     padding-right: 27rem;
     padding-left: 27rem;
+    border: 0px solid rgb(255, 0, 0);
+
 }
+
 #intro {
     padding-right: 60rem;
 }
 
 #content {
-    padding-top:1.5rem;
+    padding-top: 1.5rem;
 }
+
 .description {
-    border: 1rem solid red;
-    width:30%;
+    border: 0rem solid red;
+    width: 30%;
     float: left;
+    padding-left: 1rem;
 }
+
 .camp_photo {
-    border: 1rem solid rgb(38, 0, 255);
-    width:30%;
+    border: 0rem solid rgb(38, 0, 255);
+    width: 30%;
     float: left;
 }
-#Elphinstone_description {
-   width:40%; 
-   border: 1rem solid red;
-   float: left;
-}
-#Elphinstone_photo {
-   width:80%; 
-   border: 1rem solid rgb(25, 0, 255);
-   float: left;
-}
+
 .navbar {
     background-color: rgb(157, 150, 196);
-    display:flex;
+    display: flex;
     justify-content: center;
-    border-radius: 0.75em; 
+    border-radius: 0.75em;
 }
+
 .nav-links {
     list-style: none;
-    display:flex;
+    display: flex;
     gap: 10em;
     font-size: 1.25rem;
 }
+
 .nav-links li a {
     text-decoration: none;
     color: white;
     font-size: 1.6rem;
     transition: 0.3s;
     padding: 0.5em 1em;
-    border-radius: 0.5em; 
+    border-radius: 0.5em;
 }
+
 .nav-links a:hover {
     background-color: rgb(86, 76, 142);
 }
+
 .title {
     text-align: center;
     padding: 1em;
-    color:  rgb(36, 36, 144); 
+    color: rgb(36, 36, 144);
 }
+
 .current {
     text-decoration: underline dotted rgb(86, 76, 142) 0.2em;
 }
+
 .accordion-header {
     width: 100%;
     background-color: rgb(157, 150, 196);
@@ -125,9 +132,15 @@ h2 {
     cursor: pointer;
     transition: 0.8s;
 }
+
 .accordion-content {
     display: none;
 }
+
 .accordion-header:hover {
     background-color: rgb(102, 91, 166);
+}
+.table_camp {
+    width :100%;
+     border: 0rem solid rgb(0, 255, 115);
 }

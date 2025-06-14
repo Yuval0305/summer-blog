@@ -12,7 +12,7 @@ function saveName() {
 document.querySelectorAll('.accordion-header').forEach(function (button) {
     button.addEventListener('click', function () {
         let content = this.nextElementSibling;
-        content.style.display = (content.style.display === 'block') ? 'none': 'block';
+        content.style.display = (content.style.display === 'block') ? 'none' : 'block';
     });
 });
 
