@@ -15,21 +15,21 @@ ol {
     font-size: 1.27rem;
 }
 
-h3 {
-    font-size: 2rem;
-    padding-top: 6rem;
-}
-
-h5 {
-    font-size: 1.4rem;
-}
-
 h1 {
     font-size: 3.5rem;
+     text-align: center;
 }
 
 h2 {
     font-size: 2rem;
+    text-align: center;
+}
+h3 {
+    font-size: 2rem;
+    padding-top: 6rem;
+}
+h5 {
+    font-size: 1.4rem;
 }
 
 .round2 {
@@ -39,14 +39,6 @@ h2 {
     text-align: center;
     background-color: rgb(255, 255, 255, .70);
 
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
 }
 
 #begining {
@@ -143,4 +135,47 @@ h2 {
 .table_camp {
     width :100%;
      border: 0rem solid rgb(0, 255, 115);
+}
+.hidden {
+    display: none !important;
+}
+.blog-entry {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding-right: 2%;
+    margin-bottom: 2em;
+}
+.blog-entry img {
+    width:40%;
+    border-radius: 0 1.5em 1.5em 0;
+}
+
+#enter-password {
+    text-align: center;
+}
+#enter-password input {
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+    border: 0;
+    padding: 0.2em;
+    width: 40%;
+    background-color: rgba(35, 97, 211, 0.4);
+}
+#enter-password button {
+    font-size: 1.3rem;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    width: 7%;
+    border: 0;
+    background-color: rgba(35, 97, 211, 0.4);
+    color: navy;
+
+}
+
+#password-field {
+    display: flex;
+    vertical-align: center;
+    gap: 0.5em;
+    justify-content: center;
 }
