@@ -137,7 +137,7 @@ h5 {
      border: 0rem solid rgb(0, 255, 115);
 }
 .hidden {
-    display: none !important;
+    display: none;
 }
 .blog-entry {
     display: flex;
