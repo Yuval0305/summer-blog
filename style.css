@@ -70,7 +70,7 @@ h5 {
     padding-left: 1rem;
 }
 
-.camp_photo {
+.book_photo {
     border: 0rem solid rgb(38, 0, 255);
     width: 30%;
     float: left;
@@ -132,7 +132,7 @@ h5 {
 .accordion-header:hover {
     background-color: rgb(102, 91, 166);
 }
-.table_camp {
+.table_book {
     width :100%;
      border: 0rem solid rgb(0, 255, 115);
 }
