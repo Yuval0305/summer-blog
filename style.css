@@ -31,6 +31,10 @@ h3 {
 h5 {
     font-size: 1.4rem;
 }
+h6 {
+   font-size: 1.27rem; 
+   font-weight: 600;
+}
 
 .round2 {
     border: 2px solid rgb(176, 209, 231);
@@ -65,7 +69,7 @@ h5 {
 
 .description {
     border: 0rem solid red;
-    width: 30%;
+    width: 80%;
     float: left;
     padding-left: 1rem;
 }
@@ -191,5 +195,7 @@ h5 {
     font-weight: 400;
     font-style: normal;
 }
+
+
 
 
