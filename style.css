@@ -72,7 +72,7 @@ h5 {
 
 .book_photo {
     border: 0rem solid rgb(38, 0, 255);
-    width: 30%;
+    width: 15%;
     float: left;
 }
 
@@ -178,3 +178,18 @@ h5 {
     gap: 0.5em;
     justify-content: center;
 }
+
+.yuval-photo {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+
+}
+#book-marquee {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
