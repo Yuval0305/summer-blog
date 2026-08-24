@@ -17,7 +17,6 @@ ol {
 
 h1 {
     font-size: 3.5rem;
-     text-align: center;
 }
 
 h2 {
@@ -26,7 +25,6 @@ h2 {
 }
 h3 {
     font-size: 2rem;
-    padding-top: 6rem;
 }
 h5 {
     font-size: 1.4rem;
@@ -36,6 +34,9 @@ h6 {
    font-weight: 600;
 }
 
+#slogan {
+    padding: 6rem 0rem 3rem 0rem;
+}
 .round2 {
     border: 2px solid rgb(176, 209, 231);
     border-radius: 8px;
@@ -56,7 +57,7 @@ h6 {
     padding-right: 27rem;
     padding-left: 27rem;
     border: 0px solid rgb(255, 0, 0);
-
+    text-align: center;
 }
 
 #intro {
@@ -109,10 +110,24 @@ h6 {
 
 .title {
     text-align: center;
-    padding: 1em;
     color: rgb(36, 36, 144);
+    border: 0px solid rgb(255, 0, 0);
+    padding: 13% 0% 5% 40%;
+}
+#subtitle {
+    padding: 0%;
+    border: 0px solid green;
+}
+.yuval-photo {
+    border: 0rem solid rgb(38, 0, 255);
+    width: 35%;
+    float: left;
+    padding-bottom: 3%;
 }
 
+#about-me {
+    padding: 3%;
+}
 .current {
     text-decoration: underline dotted rgb(86, 76, 142) 0.2em;
 }
@@ -183,11 +198,11 @@ h6 {
     justify-content: center;
 }
 
-.yuval-photo {
-    padding-left: 25%;
-    padding-right: 25%;
+.rio-photo {
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 5%;
-
+    padding-top: 2%;
 }
 #book-marquee {
     font-size: 50px;
@@ -196,6 +211,8 @@ h6 {
     font-style: normal;
 }
 
-
-
-
+.accordionText {
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+}
